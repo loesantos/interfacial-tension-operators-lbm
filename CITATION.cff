@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Interfacial-tension operators in colour-gradient lattice Boltzmann models: code and data"
+type: software
+license: GPL-3.0-or-later
+version: "1.0"
+date-released: "2026-09-29"
+authors:
+  # AUTORES: substitua pelos nomes e afiliacoes corretos antes de publicar.
+  - family-names: "Dos Santos"
+    given-names: "Luís Orlando Emerich"
+    affiliation: "Universidade Federal de Santa Catarina"
+repository-code: "https://github.com/SEU_USUARIO/interfacial-tension-operators-lbm"
+keywords:
+  - lattice Boltzmann
+  - colour-gradient model
+  - interfacial tension
+  - spurious currents

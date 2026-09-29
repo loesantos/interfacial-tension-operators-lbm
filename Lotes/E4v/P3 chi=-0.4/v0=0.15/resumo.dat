@@ -1,0 +1,2 @@
+# operador chi xi tau beta fat_R_B v0 nx R_ini sigma_nominal estado passo_falha passos sigma_med umax_med urms_med umax/sigma Ca_s=nu*umax/sigma a4_med a8_med K_med neg_total_max neg_cor_max min_f MLUPS
+P3 -0.4 1.569988 1 0.8 0.225 0.15 100 25 0.1 estavel -1 30000 0.1005536722 0.00101569423 0.0004819293355 0.01010101578 0.001683502631 7.784941598e-05 5.184055777e-05 1.294927798 0 115472 0.01129202564 0.9941222835

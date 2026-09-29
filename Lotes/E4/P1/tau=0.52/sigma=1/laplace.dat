@@ -1,0 +1,2 @@
+# 1:passo  2:raio_area  3:raio_grad  4:raio_linha  5:p_in  6:p_out  7:delta_p  8:sigma  9:|u-v0|max  10:|u-v0|rms  11:Ca  12:massa_R  13:massa_B  14:|q|  15:sd_p_in  16:sd_p_out  17:sigma_2pontos  18:K_perfil  19:r_perfil  20:espessura_10_90  21:residuo_ajuste  22:n_camadas
+0 25.04052139 25.08111096 25 0.3333333333 0.3333333333 -2.220446049e-16 -5.560112678e-15 5.003707553e-17 7.956076186e-18 0 1969.865651 8030.134349 2.504355606e-16 2.8316563e-08 0 -1.387778781e-15 1.273345395 25.01411833 3.451105388 0.08159937045 12

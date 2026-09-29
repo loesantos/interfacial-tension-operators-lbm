@@ -1,0 +1,63 @@
+
+Name of the output file: dat_out.txt
+
+Name of the geometry file: meio.vtk
+
+Pixel dimension = 1 m
+
+Number of steps: 30000
+
+Number of files: 0
+
+Number of threads: 1
+
+Relaxation time: 1.5
+
+Kinematic viscosity = 0.333333
+
+Relaxation time (non-hidrodynamic): 1
+
+Density: 1
+
+Relaxation time (Red): 1.5 => viscosity R = 0.333333
+
+Relaxation time (Blue): 1.5 => viscosity B = 0.333333
+
+Relaxation time (mixture): 1
+
+Initial density (Red): 1
+
+Initial density (Blue): 1
+
+Interfacial factor[0;0.4]: 3
+
+Interaction factor (Red) [0;0.4]: 0
+
+Interaction factor (Blue) [0;0.4]: 0
+
+Recolloring factor[0;1]: 0.8
+
+Red_wall interaction [0.0 ; 1.0] : 0
+
+Tamanho:  x = 100;  y = 100;  z = 1
+
+Operadores de tensao interfacial -- arcabouco comum ( D3Q19, BGK, Latva-Kokko )
+   operador          = P3   chi = 0.5
+   caixa             = 100 x 100 x 1
+   raio inicial      = 25
+   tau               = 1.5   ( nu = 0.333333 )
+   beta              = 0.8
+   fat_R_B           = 3   ( = A )
+   sigma nominal     = 2
+   v0                = 0
+Step : 0step = 0   R = 25.0405   sigma = -5.56011e-15   |u|max = 2.77556e-17   a4 = 9.52226e-05   neg = 2992        
+Step : 100Step : 200Step : 300Step : 400Step : 500
+Simulacao instavel no passo 500
+
+
+================ Resultado ================
+   estado            = instavel
+   sigma ( media )   = nan   ( nominal 2 )
+   |u|max ( media )  = nan   |u|max / sigma = nan
+   populacoes < 0    = 2992 ( total )  6328 ( cor )
+   MLUPS             = 0.889414

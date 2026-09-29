@@ -1,0 +1,104 @@
+
+Name of the output file: dat_out.txt
+
+Name of the geometry file: meio.vtk
+
+Pixel dimension = 1 m
+
+Number of steps: 30000
+
+Number of files: 0
+
+Number of threads: 1
+
+Relaxation time: 0.52
+
+Kinematic viscosity = 0.00666667
+
+Relaxation time (non-hidrodynamic): 1
+
+Density: 1
+
+Relaxation time (Red): 0.52 => viscosity R = 0.00666667
+
+Relaxation time (Blue): 0.52 => viscosity B = 0.00666667
+
+Relaxation time (mixture): 1
+
+Initial density (Red): 1
+
+Initial density (Blue): 1
+
+Interfacial factor[0;0.4]: 2.16346
+
+Interaction factor (Red) [0;0.4]: 0
+
+Interaction factor (Blue) [0;0.4]: 0
+
+Recolloring factor[0;1]: 0.8
+
+Red_wall interaction [0.0 ; 1.0] : 0
+
+Tamanho:  x = 100;  y = 100;  z = 1
+
+Operadores de tensao interfacial -- arcabouco comum ( D3Q19, BGK, Latva-Kokko )
+   operador          = P3   chi = -0.4
+   caixa             = 100 x 100 x 1
+   raio inicial      = 25
+   tau               = 0.52   ( nu = 0.00666667 )
+   beta              = 0.8
+   fat_R_B           = 2.16346   ( = A )
+   sigma nominal     = 0.5
+   v0                = 0
+Step : 0step = 0   R = 25.0405   sigma = -5.56011e-15   |u|max = 2.98453e-17   a4 = 9.52226e-05   neg = 3008        
+Step : 100Step : 200Step : 300Step : 400Step : 500step = 500   R = 24.8179   sigma = 0.113681   |u|max = 0.0190461   a4 = 0.000115354   neg = 128        
+Step : 600Step : 700Step : 800Step : 900Step : 1000step = 1000   R = 24.6072   sigma = 0.321121   |u|max = 0.0200956   a4 = 0.00100192   neg = 40        
+Step : 1100Step : 1200Step : 1300Step : 1400Step : 1500step = 1500   R = 24.3489   sigma = 0.698177   |u|max = 0.0184297   a4 = 0.000693875   neg = 32        
+Step : 1600Step : 1700Step : 1800Step : 1900Step : 2000step = 2000   R = 24.199   sigma = 0.834295   |u|max = 0.0174935   a4 = 0.00105362   neg = 8        
+Step : 2100Step : 2200Step : 2300Step : 2400Step : 2500step = 2500   R = 24.1222   sigma = 0.955997   |u|max = 0.0202287   a4 = 0.00129311   neg = 24        
+Step : 2600Step : 2700Step : 2800Step : 2900Step : 3000step = 3000   R = 24.1876   sigma = 0.935543   |u|max = 0.0745191   a4 = 0.00189694   neg = 136        
+Step : 3100Step : 3200Step : 3300Step : 3400Step : 3500step = 3500   R = 24.3732   sigma = 0.629514   |u|max = 0.0994253   a4 = 0.000761202   neg = 80        
+Step : 3600Step : 3700Step : 3800Step : 3900Step : 4000step = 4000   R = 24.5714   sigma = 0.329071   |u|max = 0.0821783   a4 = 0.00250182   neg = 144        
+Step : 4100Step : 4200Step : 4300Step : 4400Step : 4500step = 4500   R = 24.7363   sigma = 0.192003   |u|max = 0.0661282   a4 = 0.00165522   neg = 136        
+Step : 4600Step : 4700Step : 4800Step : 4900Step : 5000step = 5000   R = 24.725   sigma = 0.252261   |u|max = 0.0945872   a4 = 9.88513e-05   neg = 152        
+Step : 5100Step : 5200Step : 5300Step : 5400Step : 5500step = 5500   R = 24.6745   sigma = 0.258852   |u|max = 0.0850337   a4 = 0.000601035   neg = 128        
+Step : 5600Step : 5700Step : 5800Step : 5900Step : 6000step = 6000   R = 24.5723   sigma = 0.430364   |u|max = 0.0904579   a4 = 0.00155571   neg = 88        
+Step : 6100Step : 6200Step : 6300Step : 6400Step : 6500step = 6500   R = 24.4671   sigma = 0.517892   |u|max = 0.0954245   a4 = 0.00222877   neg = 88        
+Step : 6600Step : 6700Step : 6800Step : 6900Step : 7000step = 7000   R = 24.338   sigma = 0.656742   |u|max = 0.104113   a4 = 0.0021186   neg = 120        
+Step : 7100Step : 7200Step : 7300Step : 7400Step : 7500step = 7500   R = 24.3027   sigma = 0.78138   |u|max = 0.0998595   a4 = 0.00274902   neg = 168        
+Step : 7600Step : 7700Step : 7800Step : 7900Step : 8000step = 8000   R = 24.3494   sigma = 0.726172   |u|max = 0.110659   a4 = 0.000386253   neg = 88        
+Step : 8100Step : 8200Step : 8300Step : 8400Step : 8500step = 8500   R = 24.436   sigma = 0.541644   |u|max = 0.118816   a4 = 0.00186081   neg = 136        
+Step : 8600Step : 8700Step : 8800Step : 8900Step : 9000step = 9000   R = 24.5391   sigma = 0.397338   |u|max = 0.114574   a4 = 0.00248119   neg = 128        
+Step : 9100Step : 9200Step : 9300Step : 9400Step : 9500step = 9500   R = 24.5751   sigma = 0.377663   |u|max = 0.100219   a4 = 0.000924901   neg = 128        
+Step : 9600Step : 9700Step : 9800Step : 9900Step : 10000step = 10000   R = 24.5809   sigma = 0.343844   |u|max = 0.0982522   a4 = 0.000347559   neg = 128        
+Step : 10100Step : 10200Step : 10300Step : 10400Step : 10500step = 10500   R = 24.5627   sigma = 0.419255   |u|max = 0.0961626   a4 = 0.000113345   neg = 96        
+Step : 10600Step : 10700Step : 10800Step : 10900Step : 11000step = 11000   R = 24.5315   sigma = 0.476709   |u|max = 0.0951313   a4 = 0.000456803   neg = 88        
+Step : 11100Step : 11200Step : 11300Step : 11400Step : 11500step = 11500   R = 24.4644   sigma = 0.556779   |u|max = 0.0949952   a4 = 0.00150588   neg = 88        
+Step : 11600Step : 11700Step : 11800Step : 11900Step : 12000step = 12000   R = 24.4005   sigma = 0.60999   |u|max = 0.0925429   a4 = 0.00293403   neg = 72        
+Step : 12100Step : 12200Step : 12300Step : 12400Step : 12500step = 12500   R = 24.3977   sigma = 0.635642   |u|max = 0.0996848   a4 = 0.0027441   neg = 56        
+Step : 12600Step : 12700Step : 12800Step : 12900Step : 13000step = 13000   R = 24.4399   sigma = 0.558325   |u|max = 0.109426   a4 = 0.000907918   neg = 72        
+Step : 13100Step : 13200Step : 13300Step : 13400Step : 13500step = 13500   R = 24.504   sigma = 0.450509   |u|max = 0.114336   a4 = 0.000852074   neg = 96        
+Step : 13600Step : 13700Step : 13800Step : 13900Step : 14000step = 14000   R = 24.5514   sigma = 0.444151   |u|max = 0.10548   a4 = 0.00143532   neg = 128        
+Step : 14100Step : 14200Step : 14300Step : 14400Step : 14500step = 14500   R = 24.554   sigma = 0.413917   |u|max = 0.0982296   a4 = 0.00110903   neg = 144        
+Step : 14600Step : 14700Step : 14800Step : 14900Step : 15000step = 15000   R = 24.5331   sigma = 0.424831   |u|max = 0.093913   a4 = 0.000978489   neg = 112        
+Step : 15100Step : 15200Step : 15300Step : 15400Step : 15500step = 15500   R = 24.5079   sigma = 0.458337   |u|max = 0.0952952   a4 = 0.000361501   neg = 88        
+Step : 15600Step : 15700Step : 15800Step : 15900Step : 16000step = 16000   R = 24.4651   sigma = 0.526272   |u|max = 0.0975213   a4 = 0.00018499   neg = 104        
+Step : 16100Step : 16200Step : 16300Step : 16400Step : 16500step = 16500   R = 24.4154   sigma = 0.587826   |u|max = 0.0976592   a4 = 0.00110548   neg = 120        
+Step : 16600Step : 16700Step : 16800Step : 16900Step : 17000step = 17000   R = 24.3997   sigma = 0.63928   |u|max = 0.0945462   a4 = 0.00216845   neg = 88        
+Step : 17100Step : 17200Step : 17300Step : 17400Step : 17500step = 17500   R = 24.4274   sigma = 0.613881   |u|max = 0.100777   a4 = 0.00190627   neg = 40        
+Step : 17600Step : 17700Step : 17800Step : 17900Step : 18000step = 18000   R = 24.4843   sigma = 0.498359   |u|max = 0.109856   a4 = 0.000933359   neg = 59        
+Step : 18100Step : 18200Step : 18300Step : 18400Step : 18500step = 18500   R = 24.5429   sigma = 0.423617   |u|max = 0.111663   a4 = 0.000206422   neg = 98        
+Step : 18600Step : 18700Step : 18800Step : 18900Step : 19000step = 19000   R = 24.5778   sigma = 0.385851   |u|max = 0.105761   a4 = 0.000408338   neg = 100        
+Step : 19100Step : 19200Step : 19300Step : 19400Step : 19500step = 19500   R = 24.5708   sigma = 0.394026   |u|max = 0.101516   a4 = 0.000624248   neg = 130        
+Step : 19600Step : 19700Step : 19800Step : 19900Step : 20000step = 20000   R = 24.5431   sigma = 0.427723   |u|max = 0.102295   a4 = 0.00058123   neg = 125        
+Step : 20100Step : 20200Step : 20300Step : 20400Step : 20500step = 20500   R = 24.4943   sigma = 0.496467   |u|max = 0.166956   a4 = 0.000414067   neg = 188        
+Step : 20600Step : 20700Step : 20800Step : 20900Step : 21000
+Simulacao instavel no passo 21000
+
+
+================ Resultado ================
+   estado            = instavel
+   sigma ( media )   = 0.489706   ( nominal 0.5 )
+   |u|max ( media )  = 0.10648   |u|max / sigma = 0.217436
+   populacoes < 0    = 3008 ( total )  6832 ( cor )
+   MLUPS             = 1.189

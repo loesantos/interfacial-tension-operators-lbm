@@ -1,0 +1,101 @@
+
+Name of the output file: dat_out.txt
+
+Name of the geometry file: meio.vtk
+
+Pixel dimension = 1 m
+
+Number of steps: 20000
+
+Number of files: 0
+
+Number of threads: 1
+
+Relaxation time: 1
+
+Kinematic viscosity = 0.166667
+
+Relaxation time (non-hidrodynamic): 1
+
+Density: 1
+
+Relaxation time (Red): 1 => viscosity R = 0.166667
+
+Relaxation time (Blue): 1 => viscosity B = 0.166667
+
+Relaxation time (mixture): 1
+
+Initial density (Red): 1
+
+Initial density (Blue): 1
+
+Interfacial factor[0;0.4]: 0.1
+
+Interaction factor (Red) [0;0.4]: 0
+
+Interaction factor (Blue) [0;0.4]: 0
+
+Recolloring factor[0;1]: 0.8
+
+Red_wall interaction [0.0 ; 1.0] : 0
+
+Tamanho:  x = 200;  y = 200;  z = 1
+
+Interface plana inclinada -- arcabouco comum ( D3Q19, BGK, Latva-Kokko )
+   operador          = F1
+   caixa             = 200 x 200
+   ( p , q )         = ( 3 , 2 )   theta = 33.6901 graus
+   distancia entre interfaces = 27.735
+   sigma nominal     = 0.1
+Step : 0step = 0   sigma_pop = 2.02883e-12   K = 1.27375   |u|max = 7.34631e-07   neg = 0        
+Step : 100Step : 200Step : 300Step : 400Step : 500step = 500   sigma_pop = 1.72435e-15   K = 1.29396   |u|max = 6.47314e-09   neg = 0        
+Step : 600Step : 700Step : 800Step : 900Step : 1000step = 1000   sigma_pop = 1.82443e-15   K = 1.29396   |u|max = 6.43108e-09   neg = 0        
+Step : 1100Step : 1200Step : 1300Step : 1400Step : 1500step = 1500   sigma_pop = 1.83213e-15   K = 1.29396   |u|max = 6.42656e-09   neg = 0        
+Step : 1600Step : 1700Step : 1800Step : 1900Step : 2000step = 2000   sigma_pop = 1.9168e-15   K = 1.29396   |u|max = 6.42795e-09   neg = 0        
+Step : 2100Step : 2200Step : 2300Step : 2400Step : 2500step = 2500   sigma_pop = 1.87831e-15   K = 1.29396   |u|max = 6.42886e-09   neg = 0        
+Step : 2600Step : 2700Step : 2800Step : 2900Step : 3000step = 3000   sigma_pop = 1.83213e-15   K = 1.29396   |u|max = 6.42887e-09   neg = 0        
+Step : 3100Step : 3200Step : 3300Step : 3400Step : 3500step = 3500   sigma_pop = 1.9245e-15   K = 1.29396   |u|max = 6.42876e-09   neg = 0        
+Step : 3600Step : 3700Step : 3800Step : 3900Step : 4000step = 4000   sigma_pop = 1.74745e-15   K = 1.29396   |u|max = 6.42874e-09   neg = 0        
+Step : 4100Step : 4200Step : 4300Step : 4400Step : 4500step = 4500   sigma_pop = 1.96299e-15   K = 1.29396   |u|max = 6.42876e-09   neg = 0        
+Step : 4600Step : 4700Step : 4800Step : 4900Step : 5000step = 5000   sigma_pop = 1.83982e-15   K = 1.29396   |u|max = 6.42879e-09   neg = 0        
+Step : 5100Step : 5200Step : 5300Step : 5400Step : 5500step = 5500   sigma_pop = 1.87831e-15   K = 1.29396   |u|max = 6.42881e-09   neg = 0        
+Step : 5600Step : 5700Step : 5800Step : 5900Step : 6000step = 6000   sigma_pop = 1.79364e-15   K = 1.29396   |u|max = 6.42885e-09   neg = 0        
+Step : 6100Step : 6200Step : 6300Step : 6400Step : 6500step = 6500   sigma_pop = 2.01688e-15   K = 1.29396   |u|max = 6.42889e-09   neg = 0        
+Step : 6600Step : 6700Step : 6800Step : 6900Step : 7000step = 7000   sigma_pop = 1.80903e-15   K = 1.29396   |u|max = 6.42894e-09   neg = 0        
+Step : 7100Step : 7200Step : 7300Step : 7400Step : 7500step = 7500   sigma_pop = 1.89371e-15   K = 1.29396   |u|max = 6.429e-09   neg = 0        
+Step : 7600Step : 7700Step : 7800Step : 7900Step : 8000step = 8000   sigma_pop = 1.67817e-15   K = 1.29396   |u|max = 6.42907e-09   neg = 0        
+Step : 8100Step : 8200Step : 8300Step : 8400Step : 8500step = 8500   sigma_pop = 1.85522e-15   K = 1.29396   |u|max = 6.42914e-09   neg = 0        
+Step : 8600Step : 8700Step : 8800Step : 8900Step : 9000step = 9000   sigma_pop = 1.83982e-15   K = 1.29396   |u|max = 6.42921e-09   neg = 0        
+Step : 9100Step : 9200Step : 9300Step : 9400Step : 9500step = 9500   sigma_pop = 1.90911e-15   K = 1.29396   |u|max = 6.4293e-09   neg = 0        
+Step : 9600Step : 9700Step : 9800Step : 9900Step : 10000step = 10000   sigma_pop = 1.95529e-15   K = 1.29396   |u|max = 6.42938e-09   neg = 0        
+Step : 10100Step : 10200Step : 10300Step : 10400Step : 10500step = 10500   sigma_pop = 1.84752e-15   K = 1.29396   |u|max = 6.42948e-09   neg = 0        
+Step : 10600Step : 10700Step : 10800Step : 10900Step : 11000step = 11000   sigma_pop = 1.81673e-15   K = 1.29396   |u|max = 6.42958e-09   neg = 0        
+Step : 11100Step : 11200Step : 11300Step : 11400Step : 11500step = 11500   sigma_pop = 1.96299e-15   K = 1.29396   |u|max = 6.42968e-09   neg = 0        
+Step : 11600Step : 11700Step : 11800Step : 11900Step : 12000step = 12000   sigma_pop = 1.85522e-15   K = 1.29396   |u|max = 6.42979e-09   neg = 0        
+Step : 12100Step : 12200Step : 12300Step : 12400Step : 12500step = 12500   sigma_pop = 1.9322e-15   K = 1.29396   |u|max = 6.42991e-09   neg = 0        
+Step : 12600Step : 12700Step : 12800Step : 12900Step : 13000step = 13000   sigma_pop = 1.90911e-15   K = 1.29396   |u|max = 6.43003e-09   neg = 0        
+Step : 13100Step : 13200Step : 13300Step : 13400Step : 13500step = 13500   sigma_pop = 1.71666e-15   K = 1.29396   |u|max = 6.43015e-09   neg = 0        
+Step : 13600Step : 13700Step : 13800Step : 13900Step : 14000step = 14000   sigma_pop = 1.69356e-15   K = 1.29396   |u|max = 6.43029e-09   neg = 0        
+Step : 14100Step : 14200Step : 14300Step : 14400Step : 14500step = 14500   sigma_pop = 1.83982e-15   K = 1.29396   |u|max = 6.43042e-09   neg = 0        
+Step : 14600Step : 14700Step : 14800Step : 14900Step : 15000step = 15000   sigma_pop = 1.63968e-15   K = 1.29396   |u|max = 6.43056e-09   neg = 0        
+Step : 15100Step : 15200Step : 15300Step : 15400Step : 15500step = 15500   sigma_pop = 1.87831e-15   K = 1.29396   |u|max = 6.43071e-09   neg = 0        
+Step : 15600Step : 15700Step : 15800Step : 15900Step : 16000step = 16000   sigma_pop = 1.84752e-15   K = 1.29396   |u|max = 6.43086e-09   neg = 0        
+Step : 16100Step : 16200Step : 16300Step : 16400Step : 16500step = 16500   sigma_pop = 1.9322e-15   K = 1.29396   |u|max = 6.43102e-09   neg = 0        
+Step : 16600Step : 16700Step : 16800Step : 16900Step : 17000step = 17000   sigma_pop = 1.88601e-15   K = 1.29396   |u|max = 6.43118e-09   neg = 0        
+Step : 17100Step : 17200Step : 17300Step : 17400Step : 17500step = 17500   sigma_pop = 2.01688e-15   K = 1.29396   |u|max = 6.43135e-09   neg = 0        
+Step : 17600Step : 17700Step : 17800Step : 17900Step : 18000step = 18000   sigma_pop = 1.88601e-15   K = 1.29396   |u|max = 6.43152e-09   neg = 0        
+Step : 18100Step : 18200Step : 18300Step : 18400Step : 18500step = 18500   sigma_pop = 1.9476e-15   K = 1.29396   |u|max = 6.4317e-09   neg = 0        
+Step : 18600Step : 18700Step : 18800Step : 18900Step : 19000step = 19000   sigma_pop = 1.86292e-15   K = 1.29396   |u|max = 6.43188e-09   neg = 0        
+Step : 19100Step : 19200Step : 19300Step : 19400Step : 19500step = 19500   sigma_pop = 1.95529e-15   K = 1.29396   |u|max = 6.43207e-09   neg = 0        
+Step : 19600Step : 19700Step : 19800Step : 19900step = 19999   sigma_pop = 1.77054e-15   K = 1.29396   |u|max = 6.43226e-09   neg = 0        
+
+
+================ Resultado ================
+   estado            = estavel
+   theta             = 33.6901 graus
+   sigma_pop         = 1.86439e-15   ( nominal 0.1;  ~0 nas forcas )
+   int |grad|        = 2   ( deve ser 2 )
+   K / espessura     = 1.29396 / 3.39612
+   |u|max            = 6.43066e-09   ( |u_n| 4.4224e-09, |u_t| 5.11004e-09 )
+   d0 inicial / final= 3.10328e-16 / -7.83644e-06
+   MLUPS             = 1.10362

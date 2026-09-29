@@ -1,0 +1,35 @@
+meio.vtk
+
+Dim_Pixel	1.0
+
+steps:	    30000
+
+files:	    0
+
+n_threads:  1
+
+tau:	    0.52
+
+tau_nh:     1.0
+
+rho:	    1.0
+
+tau_R:	    0.52
+
+tau_B:	    0.52
+
+tau_m:	    1.0
+
+rho_R:	    1.0
+
+rho_B:	    1.0
+
+fat_R_B:	0.1
+
+fat_R_R:	0.0
+
+fat_B_B:    0.0
+
+recoll:	    0.8
+
+wett_R:	    0.0

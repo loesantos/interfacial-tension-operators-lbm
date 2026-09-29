@@ -1,0 +1,67 @@
+
+1) Classe P: conservacao e segundo momento ( 200 normais aleatorias )
+  P1  ( lambda = 0.0000 )
+   M0                                                          erro =  3.686e-17   ok
+   M1                                                          erro =  0.000e+00   ok
+   M2 - (2/9) A |g| ( nn - lambda I )                          erro =  4.163e-17   ok
+  P3 chi=-2/5 (RP)  ( lambda = 1.0000 )
+   M0                                                          erro =  6.418e-17   ok
+   M1                                                          erro =  0.000e+00   ok
+   M2 - (2/9) A |g| ( nn - lambda I )                          erro =  4.857e-17   ok
+  P3 chi=1/2 (LKR)  ( lambda = 1.0000 )
+   M0                                                          erro =  5.898e-17   ok
+   M1                                                          erro =  0.000e+00   ok
+   M2 - (2/9) A |g| ( nn - lambda I )                          erro =  4.163e-17   ok
+  P3 chi=2 (LVK)  ( lambda = 1.0000 )
+   M0                                                          erro =  4.510e-17   ok
+   M1                                                          erro =  0.000e+00   ok
+   M2 - (2/9) A |g| ( nn - lambda I )                          erro =  4.163e-17   ok
+
+   M4_nnnn / ( A |g| ) contra o angulo no plano ( 0, 15, 22.5, 30, 45 graus )
+   P1                     0.222222   0.263889   0.305556   0.347222   0.388889
+   P3 chi=-2/5 (RP)       0.000000   0.013889   0.027778   0.041667   0.055556
+   P3 chi=1/2 (LKR)       0.000000   0.027778   0.055556   0.083333   0.111111
+   P3 chi=2 (LVK)         0.000000   0.041667   0.083333   0.125000   0.166667
+
+2) Colapso nz = 1: P3( chi ) dobrado em z  ==  familia D2Q9 com chi2 = chi + 2
+   chi = -0.40  ->  chi2 =  1.60                               erro =  5.204e-18   ok
+   chi =  0.50  ->  chi2 =  2.50                               erro =  6.939e-18   ok
+   chi =  2.00  ->  chi2 =  4.00                               erro =  4.337e-18   ok
+   chi =  7.00  ->  chi2 =  9.00                               erro =  6.939e-18   ok
+
+3) Fonte de Guo ( source da biblioteca )
+   soma S                                                      erro = -1.355e-20   ok
+   soma S c - ( 1 - 1/2tau ) F  ( x )                          erro =  0.000e+00   ok
+   soma S c - ( 1 - 1/2tau ) F  ( y )                          erro =  1.084e-19   ok
+
+4) Classe F sobre perfis tanh ( sigma = 0.1, R = 60 )
+  F1 CSF   ( xi = 1.570 )
+   plano: max |F| / ( sigma / xi )                             erro =  8.715e-13   ok
+   disco: ( int F_r dr ) / ( sigma / R ) - 1                   erro =  7.491e-04   ok
+  F2 div T   ( xi = 1.570 )
+   plano: max |F| / ( sigma / xi )                             erro =  2.434e-17   ok
+   disco: ( int F_r dr ) / ( sigma / R ) - 1                   erro =  7.012e-04   ok
+  F3 mu grad phi   ( xi = 1.570 )
+   plano: max |F| / ( sigma / xi )                             erro =  3.258e-02   ok
+   disco: ( int F_r dr ) / ( sigma / R ) - 1                   erro = -9.521e-02   ok
+  F1 CSF   ( xi = 3.000 )
+   plano: max |F| / ( sigma / xi )                             erro =  1.449e-12   ok
+   disco: ( int F_r dr ) / ( sigma / R ) - 1                   erro =  2.262e-03   ok
+  F2 div T   ( xi = 3.000 )
+   plano: max |F| / ( sigma / xi )                             erro =  2.204e-17   ok
+   disco: ( int F_r dr ) / ( sigma / R ) - 1                   erro =  2.215e-03   ok
+  F3 mu grad phi   ( xi = 3.000 )
+   plano: max |F| / ( sigma / xi )                             erro =  7.512e-03   ok
+   disco: ( int F_r dr ) / ( sigma / R ) - 1                   erro = -2.784e-02   ok
+  F1 CSF   ( xi = 6.000 )
+   plano: max |F| / ( sigma / xi )                             erro =  7.724e-10   ok
+   disco: ( int F_r dr ) / ( sigma / R ) - 1                   erro =  8.731e-03   ok
+  F2 div T   ( xi = 6.000 )
+   plano: max |F| / ( sigma / xi )                             erro =  2.082e-17   ok
+   disco: ( int F_r dr ) / ( sigma / R ) - 1                   erro =  8.682e-03   ok
+  F3 mu grad phi   ( xi = 6.000 )
+   plano: max |F| / ( sigma / xi )                             erro =  9.924e-04   ok
+   disco: ( int F_r dr ) / ( sigma / R ) - 1                   erro = -4.051e-03   ok
+
+TUDO CERTO ( 0 falhas )
+

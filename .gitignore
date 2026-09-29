@@ -1,0 +1,22 @@
+# Executaveis compilados
+Imm_OPS
+Imm_INCL
+verifica_operadores
+*.o
+
+# Campos finais e geometria ( grandes; a geometria e refeita por ger_caixa.py )
+*.vtk
+
+# Python e sistema
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Casos de teste locais
+teste/
+Lotes_teste/
+
+# Saidas dos scripts do artigo ( refeitas a partir de simulation_data )
+paper_scripts/figures/
+paper_scripts/tab_*.tex
