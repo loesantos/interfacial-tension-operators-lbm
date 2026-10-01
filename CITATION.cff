@@ -10,7 +10,7 @@ authors:
   - family-names: "Dos Santos"
     given-names: "Luís Orlando Emerich"
     affiliation: "Universidade Federal de Santa Catarina"
-repository-code: "https://github.com/SEU_USUARIO/interfacial-tension-operators-lbm"
+repository-code: "https://github.com/loesantos/interfacial-tension-operators-lbm"
 keywords:
   - lattice Boltzmann
   - colour-gradient model
